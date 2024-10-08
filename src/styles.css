@@ -1,0 +1,62 @@
+/* styles.css */
+body {
+    background-color: white;
+    
+}
+  
+#text_project{
+    border: 1px solid black;
+
+}
+
+#td{
+    background-color: aqua;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+#displayProject{
+    width: 500px;
+    height: 10px;
+}
+
+#rm{
+    width: 80px;
+    height: 30px;
+    margin: 5px;
+
+}
+#content_projectToDoList{
+    padding-top: 10px;
+    
+}
+
+#btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#projectTask_Box_1{
+    margin-right: 5px;
+}
+
+#projectTask_Box_2{
+    margin-right: 5px;
+}
+
+#projectTask_Box_3{
+    margin-right: 5px;
+}
+
+#projectTask_Box_4{
+    margin-right: 5px;
+}
+p{
+    padding: 5px;
+}
+li{
+    padding-left: 5px;
+}
+#checkbox{
+    padding: 5px;
+}
