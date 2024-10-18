@@ -1,31 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script defer src="main.js"></script></head>
 <body>
-    
-    <header>
-        <h1>ToDo Lists</h1>
-    </header>
 
-    <div id = "content_projectName">
+    <div class="container">
+        <div id="name_Project">
+            <div id = "content_projectName">
 
-    </div>
+            </div>
 
-    <div id = "content_projectToDoList">
-
-    </div>
-
-    <div id = "btn">
+            <div id="add_remove_btn">
+                <div id = "btn">
         
-    </div>
+                </div>
+            </div>
+            
 
-    <table id = "text_project"></table>
+            <div id="container_button_nameProject" class="tablinks" onclick="openInfor(event,'body_list_Todo')" id="defaultOpen">
+            
+            </div>
+
+            <table id = "nameProject_Remove"></table>
+            
+        </div>
+        <div id="task_Project">
+
+            <div id="welcome_top">
+
+            </div>
+
+            <div id = "body_list_Todo" class="tabContent">
+                <div id = "below_content_projectToDoList">
+
+                </div> 
+                <div id = "below_content_projectToDoList_button">
+    
+                </div>
+    
+                <table id = "text_project"></table>
+    
+                <div id = "content_projectToDoList">
+                    
+                </div>
+            </div>
+            
+            
+
+            
+            
+        </div>
+    </div>
+    
+   
+    
+</head>
+    
 
     
 
